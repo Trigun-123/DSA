@@ -24,7 +24,7 @@ int main() {
     char ch = 't';
     cout << ch << "\n"; //t
 
-    string s;
+    string s; //string is a class under namespace std
     getline(cin, s);
     cout << s; 
     return 0;
