@@ -8,6 +8,6 @@ void passByValue(int x) {
 int main() {
     int num = 5;
     passByValue(num);
-    cout << num;
+    cout << num; //5
     return 0;
 }

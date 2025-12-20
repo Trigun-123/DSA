@@ -8,6 +8,6 @@ void passByReference(int &x) {
 int main() {
     int num = 5;
     passByReference(num);
-    cout << num;
+    cout << num; //15
     return 0;
 }
