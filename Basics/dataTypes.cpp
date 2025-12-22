@@ -18,6 +18,7 @@ int main() {
     float number = 10.1234;
     cout << number << "\n"; //10.1234 
 
+    //15 decimal places
     double numdouble = 10.1239;
     cout << numdouble << "\n"; //10.1239
 
