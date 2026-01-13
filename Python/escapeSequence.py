@@ -1,0 +1,1 @@
+print("Trigun\'s name is \"Trigun\"")
