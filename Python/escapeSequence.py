@@ -1,1 +1,1 @@
-print("Trigun\'s name is \"Trigun\"")
+print("My son\'s name is \"Trigun\"")
