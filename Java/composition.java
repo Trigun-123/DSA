@@ -1,22 +1,22 @@
-class Engine {
-    void start() {
-        System.out.println("Engine started");
+class Subject {
+    void showSubject() {
+        System.out.println("Subject is being taught");
     }
 }
 
-class Car {
-    private Engine engine = new Engine();
+class Course {
+    private Subject subject = new Subject();
 
-    void drive() {
-        engine.start();
-        System.out.println("Car is moving");
+    void startCourse() {
+        subject.showSubject();
+        System.out.println("Course has started");
     }
 }
 
 
 public class composition {
     public static void main(String[] args) {
-        Car car = new Car();
-        car.drive();
+        Course c = new Course();
+        c.startCourse();
     }
 }
